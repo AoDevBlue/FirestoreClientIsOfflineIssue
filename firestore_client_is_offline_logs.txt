@@ -1,0 +1,246 @@
+02-12 16:37:40.274 31628-31628/? D/FirestoreTest: Starting a new call
+02-12 16:37:40.281 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream sending: # com.google.android.gms.internal.zzfad@8d8dd30
+02-12 16:37:40.484 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream received: # com.google.android.gms.internal.zzfaf@9718e3a5
+02-12 16:37:40.494 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream received: # com.google.android.gms.internal.zzfaf@55ecdd0e
+02-12 16:37:40.498 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream received: # com.google.android.gms.internal.zzfaf@2e0353b6
+02-12 16:37:40.502 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream received: # com.google.android.gms.internal.zzfaf@d4343f10
+02-12 16:37:40.538 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream received: # com.google.android.gms.internal.zzfaf@cf9f65eb
+02-12 16:37:40.542 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream received: # com.google.android.gms.internal.zzfaf@124cff22
+02-12 16:37:40.548 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream sending: # com.google.android.gms.internal.zzfad@6ca683a7
+02-12 16:37:40.552 31628-31628/? D/FirestoreTest: Read the test value: test_value
+02-12 16:37:40.676 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream received: # com.google.android.gms.internal.zzfaf@c032334e
+02-12 16:37:44.418 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream closed with status: zzfof{code=UNAVAILABLE, description=End of stream or IOException, cause=null}.
+02-12 16:37:54.733 31628-31628/? D/FirestoreTest: Starting a new call
+02-12 16:37:54.739 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream closed with status: zzfof{code=UNAVAILABLE, description=null, cause=java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+                                                  at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:141)
+                                                  at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90)
+                                                  at java.net.InetAddress.getAllByName(InetAddress.java:787)
+                                                  at io.grpc.internal.zzbq$zzb.zzuk(Unknown Source:2)
+                                                  at io.grpc.internal.zzbr.run(Unknown Source:118)
+                                                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+                                                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+                                                  at java.lang.Thread.run(Thread.java:764)
+                                               Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+                                                  at libcore.io.Linux.android_getaddrinfo(Native Method)
+                                                  at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:59)
+                                                  at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:122)
+                                                  at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90) 
+                                                  at java.net.InetAddress.getAllByName(InetAddress.java:787) 
+                                                  at io.grpc.internal.zzbq$zzb.zzuk(Unknown Source:2) 
+                                                  at io.grpc.internal.zzbr.run(Unknown Source:118) 
+                                                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162) 
+                                                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636) 
+                                                  at java.lang.Thread.run(Thread.java:764) 
+                                              }.
+02-12 16:37:54.740 31628-31899/? I/Firestore: (0.6.6-dev) [zzevg]: Backing off for 571ms (base delay: 1000ms)
+02-12 16:37:55.315 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream closed with status: zzfof{code=UNAVAILABLE, description=null, cause=java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+                                                  at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:141)
+                                                  at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90)
+                                                  at java.net.InetAddress.getAllByName(InetAddress.java:787)
+                                                  at io.grpc.internal.zzbq$zzb.zzuk(Unknown Source:2)
+                                                  at io.grpc.internal.zzbr.run(Unknown Source:118)
+                                                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+                                                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+                                                  at java.lang.Thread.run(Thread.java:764)
+                                               Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+                                                  at libcore.io.Linux.android_getaddrinfo(Native Method)
+                                                  at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:59)
+                                                  at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:122)
+                                                  at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90) 
+                                                  at java.net.InetAddress.getAllByName(InetAddress.java:787) 
+                                                  at io.grpc.internal.zzbq$zzb.zzuk(Unknown Source:2) 
+                                                  at io.grpc.internal.zzbr.run(Unknown Source:118) 
+                                                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162) 
+                                                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636) 
+                                                  at java.lang.Thread.run(Thread.java:764) 
+                                              }.
+02-12 16:37:55.317 31628-31899/? I/Firestore: (0.6.6-dev) [zzevg]: Backing off for 1448ms (base delay: 1500ms)
+02-12 16:37:55.336 31628-31628/? D/FirestoreTest: Error while reading the value: Failed to get document because the client is offline.
+02-12 16:37:56.783 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream closed with status: zzfof{code=UNAVAILABLE, description=null, cause=java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+                                                  at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:141)
+                                                  at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90)
+                                                  at java.net.InetAddress.getAllByName(InetAddress.java:787)
+                                                  at io.grpc.internal.zzbq$zzb.zzuk(Unknown Source:2)
+                                                  at io.grpc.internal.zzbr.run(Unknown Source:118)
+                                                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+                                                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+                                                  at java.lang.Thread.run(Thread.java:764)
+                                               Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+                                                  at libcore.io.Linux.android_getaddrinfo(Native Method)
+                                                  at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:59)
+                                                  at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:122)
+                                                  at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90) 
+                                                  at java.net.InetAddress.getAllByName(InetAddress.java:787) 
+                                                  at io.grpc.internal.zzbq$zzb.zzuk(Unknown Source:2) 
+                                                  at io.grpc.internal.zzbr.run(Unknown Source:118) 
+                                                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162) 
+                                                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636) 
+                                                  at java.lang.Thread.run(Thread.java:764) 
+                                              }.
+02-12 16:37:57.561 31628-31628/? D/FirestoreTest: Starting a new call
+02-12 16:37:57.565 31628-31899/? I/Firestore: (0.6.6-dev) [zzevg]: Backing off for 2734ms (base delay: 2250ms)
+02-12 16:38:00.305 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream closed with status: zzfof{code=UNAVAILABLE, description=null, cause=java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+                                                  at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:141)
+                                                  at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90)
+                                                  at java.net.InetAddress.getAllByName(InetAddress.java:787)
+                                                  at io.grpc.internal.zzbq$zzb.zzuk(Unknown Source:2)
+                                                  at io.grpc.internal.zzbr.run(Unknown Source:118)
+                                                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+                                                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+                                                  at java.lang.Thread.run(Thread.java:764)
+                                               Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+                                                  at libcore.io.Linux.android_getaddrinfo(Native Method)
+                                                  at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:59)
+                                                  at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:122)
+                                                  at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90) 
+                                                  at java.net.InetAddress.getAllByName(InetAddress.java:787) 
+                                                  at io.grpc.internal.zzbq$zzb.zzuk(Unknown Source:2) 
+                                                  at io.grpc.internal.zzbr.run(Unknown Source:118) 
+                                                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162) 
+                                                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636) 
+                                                  at java.lang.Thread.run(Thread.java:764) 
+                                              }.
+02-12 16:38:00.309 31628-31899/? I/Firestore: (0.6.6-dev) [zzevg]: Backing off for 3495ms (base delay: 3375ms)
+02-12 16:38:03.811 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream closed with status: zzfof{code=UNAVAILABLE, description=null, cause=java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+                                                  at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:141)
+                                                  at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90)
+                                                  at java.net.InetAddress.getAllByName(InetAddress.java:787)
+                                                  at io.grpc.internal.zzbq$zzb.zzuk(Unknown Source:2)
+                                                  at io.grpc.internal.zzbr.run(Unknown Source:118)
+                                                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+                                                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+                                                  at java.lang.Thread.run(Thread.java:764)
+                                               Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+                                                  at libcore.io.Linux.android_getaddrinfo(Native Method)
+                                                  at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:59)
+                                                  at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:122)
+                                                  at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90) 
+                                                  at java.net.InetAddress.getAllByName(InetAddress.java:787) 
+                                                  at io.grpc.internal.zzbq$zzb.zzuk(Unknown Source:2) 
+                                                  at io.grpc.internal.zzbr.run(Unknown Source:118) 
+                                                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162) 
+                                                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636) 
+                                                  at java.lang.Thread.run(Thread.java:764) 
+                                              }.
+02-12 16:38:03.815 31628-31899/? I/Firestore: (0.6.6-dev) [zzevg]: Backing off for 4034ms (base delay: 5062ms)
+02-12 16:38:03.825 31628-31628/? D/FirestoreTest: Error while reading the value: Failed to get document because the client is offline.
+02-12 16:38:04.781 31628-31628/? D/FirestoreTest: Starting a new call
+02-12 16:38:04.823 31628-31628/? D/FirestoreTest: Error while reading the value: Failed to get document because the client is offline.
+02-12 16:38:06.492 31628-31628/? D/FirestoreTest: Starting a new call
+02-12 16:38:06.526 31628-31628/? D/FirestoreTest: Error while reading the value: Failed to get document because the client is offline.
+02-12 16:38:07.855 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream closed with status: zzfof{code=UNAVAILABLE, description=null, cause=java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+                                                  at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:141)
+                                                  at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90)
+                                                  at java.net.InetAddress.getAllByName(InetAddress.java:787)
+                                                  at io.grpc.internal.zzbq$zzb.zzuk(Unknown Source:2)
+                                                  at io.grpc.internal.zzbr.run(Unknown Source:118)
+                                                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+                                                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+                                                  at java.lang.Thread.run(Thread.java:764)
+                                               Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+                                                  at libcore.io.Linux.android_getaddrinfo(Native Method)
+                                                  at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:59)
+                                                  at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:122)
+                                                  at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90) 
+                                                  at java.net.InetAddress.getAllByName(InetAddress.java:787) 
+                                                  at io.grpc.internal.zzbq$zzb.zzuk(Unknown Source:2) 
+                                                  at io.grpc.internal.zzbr.run(Unknown Source:118) 
+                                                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162) 
+                                                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636) 
+                                                  at java.lang.Thread.run(Thread.java:764) 
+                                              }.
+02-12 16:38:08.142 31628-31628/? D/FirestoreTest: Starting a new call
+02-12 16:38:08.147 31628-31899/? I/Firestore: (0.6.6-dev) [zzevg]: Backing off for 9273ms (base delay: 7593ms)
+02-12 16:38:17.436 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream closed with status: zzfof{code=UNAVAILABLE, description=null, cause=java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+                                                  at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:141)
+                                                  at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90)
+                                                  at java.net.InetAddress.getAllByName(InetAddress.java:787)
+                                                  at io.grpc.internal.zzbq$zzb.zzuk(Unknown Source:2)
+                                                  at io.grpc.internal.zzbr.run(Unknown Source:118)
+                                                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+                                                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+                                                  at java.lang.Thread.run(Thread.java:764)
+                                               Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+                                                  at libcore.io.Linux.android_getaddrinfo(Native Method)
+                                                  at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:59)
+                                                  at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:122)
+                                                  at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90) 
+                                                  at java.net.InetAddress.getAllByName(InetAddress.java:787) 
+                                                  at io.grpc.internal.zzbq$zzb.zzuk(Unknown Source:2) 
+                                                  at io.grpc.internal.zzbr.run(Unknown Source:118) 
+                                                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162) 
+                                                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636) 
+                                                  at java.lang.Thread.run(Thread.java:764) 
+                                              }.
+02-12 16:38:17.442 31628-31899/? I/Firestore: (0.6.6-dev) [zzevg]: Backing off for 11245ms (base delay: 11389ms)
+02-12 16:38:28.695 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream closed with status: zzfof{code=UNAVAILABLE, description=null, cause=java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+                                                  at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:141)
+                                                  at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90)
+                                                  at java.net.InetAddress.getAllByName(InetAddress.java:787)
+                                                  at io.grpc.internal.zzbq$zzb.zzuk(Unknown Source:2)
+                                                  at io.grpc.internal.zzbr.run(Unknown Source:118)
+                                                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+                                                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+                                                  at java.lang.Thread.run(Thread.java:764)
+                                               Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+                                                  at libcore.io.Linux.android_getaddrinfo(Native Method)
+                                                  at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:59)
+                                                  at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:122)
+                                                  at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90) 
+                                                  at java.net.InetAddress.getAllByName(InetAddress.java:787) 
+                                                  at io.grpc.internal.zzbq$zzb.zzuk(Unknown Source:2) 
+                                                  at io.grpc.internal.zzbr.run(Unknown Source:118) 
+                                                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162) 
+                                                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636) 
+                                                  at java.lang.Thread.run(Thread.java:764) 
+                                              }.
+02-12 16:38:28.699 31628-31899/? I/Firestore: (0.6.6-dev) [zzevg]: Backing off for 11440ms (base delay: 17083ms)
+02-12 16:38:28.713 31628-31628/? D/FirestoreTest: Error while reading the value: Failed to get document because the client is offline.
+02-12 16:38:30.144 31628-31628/? D/FirestoreTest: Starting a new call
+02-12 16:38:30.181 31628-31628/? D/FirestoreTest: Error while reading the value: Failed to get document because the client is offline.
+02-12 16:38:31.700 31628-31628/? D/FirestoreTest: Starting a new call
+02-12 16:38:31.741 31628-31628/? D/FirestoreTest: Error while reading the value: Failed to get document because the client is offline.
+02-12 16:38:33.028 31628-31628/? D/FirestoreTest: Starting a new call
+02-12 16:38:33.068 31628-31628/? D/FirestoreTest: Error while reading the value: Failed to get document because the client is offline.
+02-12 16:38:34.617 31628-31628/? D/FirestoreTest: Starting a new call
+02-12 16:38:34.664 31628-31628/? D/FirestoreTest: Error while reading the value: Failed to get document because the client is offline.
+02-12 16:38:36.026 31628-31628/? D/FirestoreTest: Starting a new call
+02-12 16:38:36.074 31628-31628/? D/FirestoreTest: Error while reading the value: Failed to get document because the client is offline.
+02-12 16:38:37.751 31628-31628/? D/FirestoreTest: Starting a new call
+02-12 16:38:37.803 31628-31628/? D/FirestoreTest: Error while reading the value: Failed to get document because the client is offline.
+02-12 16:38:40.149 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream closed with status: zzfof{code=UNAVAILABLE, description=null, cause=java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+                                                  at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:141)
+                                                  at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90)
+                                                  at java.net.InetAddress.getAllByName(InetAddress.java:787)
+                                                  at io.grpc.internal.zzbq$zzb.zzuk(Unknown Source:2)
+                                                  at io.grpc.internal.zzbr.run(Unknown Source:118)
+                                                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+                                                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+                                                  at java.lang.Thread.run(Thread.java:764)
+                                               Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+                                                  at libcore.io.Linux.android_getaddrinfo(Native Method)
+                                                  at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:59)
+                                                  at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:122)
+                                                  at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90) 
+                                                  at java.net.InetAddress.getAllByName(InetAddress.java:787) 
+                                                  at io.grpc.internal.zzbq$zzb.zzuk(Unknown Source:2) 
+                                                  at io.grpc.internal.zzbr.run(Unknown Source:118) 
+                                                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162) 
+                                                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636) 
+                                                  at java.lang.Thread.run(Thread.java:764) 
+                                              }.
+02-12 16:38:40.432 31628-31628/? D/FirestoreTest: Starting a new call
+02-12 16:38:40.437 31628-31899/? I/Firestore: (0.6.6-dev) [zzevg]: Backing off for 35010ms (base delay: 25624ms)
+02-12 16:39:15.457 31628-31628/? I/Firestore: (0.6.6-dev) [zzems]: Firebase Auth is not available, getToken is returning no token.
+02-12 16:39:15.470 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream sending: # com.google.android.gms.internal.zzfad@5f14a0a8
+02-12 16:39:15.473 31628-31899/? I/Firestore: (0.6.6-dev) [FirestoreCallCredentials]: Successfully fetched token.
+02-12 16:39:15.486 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream is ready
+02-12 16:39:16.266 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream received headers: {date=Mon, 12 Feb 2018 15:39:16 GMT}
+02-12 16:39:16.272 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream received: # com.google.android.gms.internal.zzfaf@ed54a71d
+02-12 16:39:16.280 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream received: # com.google.android.gms.internal.zzfaf@56236246
+02-12 16:39:16.286 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream received: # com.google.android.gms.internal.zzfaf@abdc538f
+02-12 16:39:16.291 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream received: # com.google.android.gms.internal.zzfaf@984e294e
+02-12 16:39:16.301 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream received: # com.google.android.gms.internal.zzfaf@4446b420
+02-12 16:39:16.307 31628-31628/? D/FirestoreTest: Read the test value: test_value
+02-12 16:39:16.308 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream sending: # com.google.android.gms.internal.zzfad@6ca6889f
+02-12 16:39:16.451 31628-31899/? I/Firestore: (0.6.6-dev) [zzeup]: (45a6b9b) Stream received: # com.google.android.gms.internal.zzfaf@166df6c6
