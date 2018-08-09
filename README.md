@@ -5,7 +5,7 @@ Reproduction repository for https://stackoverflow.com/questions/48188476/
 
 On Android, Firestore responds with
 `com.google.firebase.firestore.FirebaseFirestoreException: Failed to get document because the client is offline.`
-when fetching a document after rectonnecting to the Internet.
+when fetching a document after reconnecting to the Internet.
 
 This issue was reproduced on the firestore-core version ranging from 11.6.2 to 17.0.4
 
